@@ -1,5 +1,4 @@
 mod throttle;
-// use ratelimit_meter::{DirectRateLimiter, NonZeroU32, RateLimiter};
 use std::time::Duration;
 
 fn generate_simulated_data() -> impl Iterator<Item = usize> {
